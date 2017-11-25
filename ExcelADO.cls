@@ -90,7 +90,7 @@ Private Sub SetConnectionString()
         Case 12, 14
             sProvider = "Provider=Microsoft.ACE.OLEDB.12.0;"
             sExcelVersion = "Excel 12.0;"
-        Case 15
+        Case Is > 15
             sProvider = "Provider=Microsoft.ACE.OLEDB.15.0;"
             sExcelVersion = "Excel 15.0;"
     End Select
